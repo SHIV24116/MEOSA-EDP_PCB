@@ -1,0 +1,20 @@
+Item,Reference,Value,Description,Footprint,Qty
+1,"J_ESP_L, J_ESP_R",PinSocket_1x22_P2.54mm,ESP32-S3 DevKitC-1 N16R8 Socket (2x 1x22 Female Header),Connector_PinSocket_2.54mm:PinSocket_1x22_P2.54mm_Vertical,2
+2,"J_SOIL, J_TEMP",JST-XH-3P,"3-Pin 2.50mm Keyed Friction Lock Connector (Soil Moisture, DS18B20)",Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical,2
+3,"J_OLED, J_SPEC",JST-XH-4P,"4-Pin 2.50mm Keyed Friction Lock Connector (SSD1306, AS7265x Triad)",Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical,2
+4,"J_BAT, J_BUZZ, J_CHG",JST-XH-2P,"2-Pin 2.50mm Keyed Friction Lock Connector (1S2P Li-ion, Buzzer, USB In)",Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical,3
+5,"J_TP_IN, J_BST_IN, J_BST_OUT",PinHeader_1x02_P2.54mm,2-Pin 2.54mm Male Header for TP4056 VIN / MT3608 IN/OUT,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,3
+6,J_TP_OUT,PinHeader_1x03_P2.54mm,3-Pin 2.54mm Male Header for TP4056 B+/B-/OUT+,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,1
+7,SW_PWR,Slide_SPDT_2.54mm,"SPDT Power Slide Switch (3-pin, 2.54mm pitch)",Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm,1
+8,SW_TEST,Tactile_6x6mm,SPST Normally-Open Tactile Push Button,Button_Switch_THT:SW_PUSH_6mm,1
+9,D_PROT,1N5819,1A 40V Schottky Barrier Rectifier Diode (DO-41),Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,1
+10,D_FLYBACK,1N4148,100V 200mA Fast Switching Diode (DO-35),Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal,1
+11,Q_BUZZ,2N2222,NPN BJT Transistor 40V 800mA (TO-92),Package_TO_SOT_THT:TO-92_Inline,1
+12,LED_PWR,Green_3mm,3mm Green Indicator LED (20mA),LED_THT:LED_D3.0mm,1
+13,C_BULK,100uF/16V,100uF 16V Radial Electrolytic Capacitor,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,1
+14,"C_BYP, C_BTN_FLT",100nF (0.1uF),100nF 50V Ceramic Disc Capacitor (2.5mm pitch),Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm,2
+15,"R_TEMP_PU, R_SDA_PU, R_SCL_PU",4.7k,4.7k Ohm 1/4W 5% Metal Film / Carbon Resistor,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,3
+16,"R_LED, R_BUZZ_BASE, R_BTN_SER",1k,1k Ohm 1/4W 5% Metal Film / Carbon Resistor,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,3
+17,R_BTN_PU,10k,10k Ohm 1/4W 5% Metal Film / Carbon Resistor,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1
+18,R_BUZZ_PD,100k,100k Ohm 1/4W 5% Metal Film / Carbon Resistor,Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal,1
+19,"H1, H2, H3, H4",M3 Mounting Hole,3.2mm Plated M3 Mounting Hole (with 6mm annular ring),MountingHole:MountingHole_3.2mm_M3,4

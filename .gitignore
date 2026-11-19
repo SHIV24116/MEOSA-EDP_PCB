@@ -1,0 +1,37 @@
+# KiCad project .gitignore
+# -------------------------------------------------
+# Auto-generated lock files
+~*.lck
+
+# Local KiCad footprint info cache
+fp-info-cache
+
+# KiCad backups (auto-saved old versions)
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.bak
+*.bck
+_autosave-*
+
+# KiCad 5 / legacy
+*.pro.bak
+*.sch-bak
+
+# Rescue files
+*-rescue.kicad_sch
+*-rescue.kicad_sym
+*-rescue.lib
+rescue-backup/
+
+# OS clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python cache
+__pycache__/
+*.pyc
+
+# History / temp
+.history/
+*.tmp
