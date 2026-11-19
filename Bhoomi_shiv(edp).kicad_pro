@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -645,13 +645,18 @@
       {
         "filename": "Bhoomi_shiv(edp).kicad_sch",
         "name": "Bhoomi_shiv(edp)",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "b7b6f4b1-249c-4789-9df7-a65fc633c9af"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J_BST_OUT1,C_BTN_FLT1,C_BULK1,J_CHG1,C_BYP1,D_FLYBACK1,J_ESP_L1,J_BAT1,D_PROT1,R_BTN_SER1,J_BST_IN1,J_BUZZ1,J_ESP_R1,J_OLED1,SW_PWR1,J_SOIL1,J_SPEC1,J_TEMP1,J_TP_IN1,J_TP_OUT1,SW_TEST1,LED_PWR1,Q_BUZZ1,R_BTN_PU1,R_BUZZ_BASE1,R_BUZZ_PD1,R_LED1,R_SCL_PU1,R_SDA_PU1,R_TEMP_PU1",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "b7b6f4b1-249c-4789-9df7-a65fc633c9af",
+      "Bhoomi_shiv(edp)"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {
